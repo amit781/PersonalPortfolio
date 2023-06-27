@@ -27,8 +27,10 @@ audio:not([controls]){
 a{
     background-color:transparent
 }
-a:active,a:hover{
-    outline:0
+
+a:active, a:hover{
+    outline:0;
+    text-decoration:none;
 }
 abbr[title]{
     border-bottom:1px dotted
@@ -3979,10 +3981,16 @@ body.white{
     transition:all .2s linear;
     color:#000
 }
+
 .social-buttons a:hover{
     color:#ff0060;
     text-decoration:none
 }
+
+#contact-button:hover{
+    text-decoration:none;
+}
+
 .social-buttons a:hover .social-round-icon{
     background-color:#ff0060;
     color:#fff;
@@ -4058,4 +4066,3 @@ label{
     float:left;
     margin-right:5px
 }
-/*# sourceMappingURL=main.bc58148c.map*/
